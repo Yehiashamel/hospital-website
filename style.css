@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family:  sans-serif;
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --textColor:#0000;
+    background-color: white;
+    --secondaryColor:rgba(128, 128, 128, 0.253);
+    --green:#16a085;
+}
+html{
+    font-size: 18px;
+    scroll-padding-top: 7%;
+}
+/*nav start here*/
+nav{
+    position: -webkit-sticky ;
+    position:sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.nav-button{
+    display: none;
+    color: #000;
+    cursor: pointer;
+}
+#left{
+    margin-left: 40px;
+    padding: 0px;
+}
+nav h3{
+    display: inline-block;
+    color:rgba(0, 0, 0, 0.78) ;
+}
+#left i{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: #16a085;
+}
+.nav-button{
+    color: rgba(0, 0, 0, 0.78);
+}
+ul{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.78);
+    transition: 00.6s;
+}
+ul li a:hover{
+    color:var(--green);
+}
+nav h3{
+    margin:7px 0px 0px 10px;
+}
+/*nav ends here*/
+
+/* Home section starts here*/
+#Home{
+    width:100%;
+    display: flex;
+    background-color: var(--secondaryColor);
+}
+#Home h2{
+    color: black;
+    align-self: flex-start;
+}
+#Home p{
+    color: grey;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+#Home img{            
+    margin: 0 70px 0 100px;
+}
+.button{
+    border: 2px solid var(--green);
+    display: flex;
+    align-self: flex-start;
+    width: 165px;
+    height: 40px;
+    align-items: center;
+    transition: 0.6s;
+}
+.btn{
+    text-decoration: none;
+    color: #16a085;
+    margin-left: 10px;
+    margin-right: 5px;
+    transition: 0.6s;
+    width: 100%;
+}
+.btn span{
+    border: 7px solid var(--green); 
+    width: 45px;
+    border-radius: 5px;
+    margin-left:9px;
+    text-align: center;
+    background-color: #16a085;
+    color: white;
+    transition: 0.6s;
+}
+.button:hover{
+    background-color: var(--green);
+    width:200px;
+}
+.button:hover .btn{
+    color:white;
+}
+.btn:hover span{ 
+    margin-left: 23%;
+    background-color: white;
+    color: #16a085;
+    border-color: white;
+}  
+/* home ends here*/
+
+/*services starts here*/
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.service i {
+    color: #16a085;
+    margin: 20px 0px 20px;
+}
+.statictics{
+    border: 2px solid var(--green);
+    text-align: center;
+    height: 170px;
+    margin: 10px 10px 10px 20px ;
+}
+.service h2{
+    font: bold;
+    margin: 10px;
+}
+.service p{
+    margin-top: 20px;
+    color:#808080 ;
+}
+.Services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#Services{
+    background-color: var(--secondaryColor);
+}
+.services{
+    margin: 50px;
+    height: 270px;
+    border: 2px solid var(--green);
+}
+#Services h2{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+h2 span{
+    color: #16a085;
+}
+.services i{
+    color: #16a085;
+    margin: 20px;
+}
+.services h3{
+    margin: 20px;
+}
+.services p{
+    margin: 20px;
+}
+.services.button {
+    border: 2px solid var(--green);
+    width: 175px;
+    display: flex;
+    margin-left: 20px;
+}
+.services a{
+    text-decoration: none;
+    margin-left:15px;
+    color: #16a085;
+    display: inline-block;
+    width: 170px;
+    border: 2px solid var(--green);
+    height: 40px;
+    padding:0px 10px;
+    transition: 0.6s;
+}
+.services .span{
+    margin-left: 10px;
+}
+#button{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.buton{
+    width: 170px;
+}
+
+.services .buton:hover{
+    width:230px;
+}
+.services p{
+    color: grey;
+}
+.services a:hover span{
+    color:var(--green);
+}
+a:hover #innerSpan{
+    background-color: white;
+    margin: 14%;
+    color: #16a085;
+    border:5px solid var(--green);
+}
+.service a:hover #innerSpan{
+    background-color: white;
+}
+.services a:hover{
+    background-color: #16a085;
+    color: white;
+    width: 230px;
+}
+#button:hover{
+color: white;
+}
+
+/*services ends here*/
+/*About starts here*/
+.About-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#About .h2{
+    width: 100%;
+    text-align: center;
+}
+#About h2{
+    margin: 20px 10px 10px auto;
+    font-size: 50px;
+}
+#About img{
+    margin: 0 70px 0 100px;
+}
+.container-text{
+    display: grid;
+}
+.About-content p{
+    color:#808080;
+    margin: 0px 23px 10px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/*About ends here*/
+/* doctor starts here*/
+#Doctors{
+    background-color: var(--secondaryColor);
+}
+#Doctors h2{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    padding:20px;
+}
+.doctors img{
+   height: 200px;
+   margin-top: 20px;
+   border:2px solid var(--green) ;
+   border-radius:20px ;
+}
+.doctors{
+    border: 2px solid var(--green);
+    margin: 10px 10px;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+}
+.doctors h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 21px 0px 10px;
+}
+.container-doctors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:10px 30px ;
+}
+.doctors p{
+    color: #808080;
+}
+.social-icons{
+    margin-top: 10px;
+    text-decoration: none;
+}
+.social-icons a{
+    border: 2px solid var(--green);
+    padding:10px 20px ;
+    border-radius:10px ;
+    transition: 0.6s;
+}
+.social-icons i{
+    color:var(--green) ;
+    margin-top: 10px;
+    transition: 0.6s;
+}
+.social-icons a:hover{
+    background-color: var(--green);
+}
+.social-icons a:hover i{
+    color: white;
+
+}
+
+/* doctor ends here*/
+/*Book starts here*/
+#Books img{
+    width: 100%;
+    height: 100%;
+}
+#Books h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#container input{
+    width: 90%;
+}
+#container-books{
+    border:2px solid var(--green) ;
+    width: 500px ;
+    height: 400px;
+    margin: 120px 50px;
+}
+#container-books h4{
+    text-align: center;
+    margin:10px 0 ;
+    font-weight: bold;
+    font-size: 30px;
+}
+ input{
+    border: 2px solid var(--green);
+    margin-left: 5%;
+    height: 50px;
+    margin-top: 2%;
+}
+ .buttton{
+    text-align: center;
+    border: 2px solid var(--green);
+    position: relative;
+    top: 20px;
+    left: 30%;
+    display: inline-block;
+    width:170px ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    color: #16a085;
+    background-color: white;
+ }
+#container-books a{
+    text-decoration: none;
+} 
+.buttton:hover{
+    color: white;
+    background-color: #16a085;
+}
+
+/*Book ends here*/
+/*Reviews start here*/
+#Reviews h2{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin: 20px;
+}
+.container-reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 60px;
+}
+.reviews{  
+   height:450px;
+   border:2px solid var(--green);
+   margin: 0px 20px;
+}
+.information{
+    height: 230px;
+    border:2px solid var(--green);
+    background-color: #38c6aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.information img{
+    border-radius: 50%;
+    width: 113px;
+    margin: 20px;
+}
+.information h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.information p{
+    text-align: center;
+    color: white;
+}
+#p{
+    margin: 20px;
+    text-align: center;
+}
+/*Reviews end here*/
+#Blogs h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.container-blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+}
+.container-blogs img {
+    width:80%;
+    margin:20px 10%;
+}
+#image{
+    margin: 20px 10%;
+    height: 210px;
+}
+.blogs{
+    border: 2px solid var(--green);
+    margin: 0px 10px;
+    height: 600px;
+}
+.release-date{
+    color:#201e1e;
+    margin-left: 20px;
+}
+.release-date i{
+    color: var(--green);
+}
+.container-blogs h3{
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.container-blogs .paragraph{
+    text-align: center;
+}
+
+.container-blogs .btn{
+    margin: 15px 25px;
+    padding:0 10px;
+    height: 40px;
+}
+.container-blogs span{
+    margin:0 5px;
+}
+.container-blogs a{
+    border: 2px solid var(--green);
+    display: inline-block;
+    width: 180px;
+}
+.container-blogs a:hover{
+    background-color: #16a085;
+    color: white;
+    width: 230px;
+}
+.container-blogs a:hover span{
+    margin: 0px 13%;
+}
+/*blogs end here*/
+.container-footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--secondaryColor);
+}
+footer a{
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+}
+footer a p{
+    color: #808080;
+    transition: 0.4s;
+}
+footer i{
+    color: #16a085;
+    margin: 0px 3px;
+}
+footer span{
+    color: #16a085;
+    margin: 0 10px;
+}
+footer h3{
+    margin: 20px;
+}
+footer p:hover{
+    margin:0 20px;
+}
+@media screen and (max-width: 690px) {
+    html{
+        font-size: 16px;
+    }
+    ul{
+        display: none;
+    }
+    .active{
+        display: flex;
+        width: 10%;
+        position: absolute;
+        top: 50px;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        flex-direction: column;
+        left: 60%;
+        width: 100px;
+    }
+    .nav-button{
+        display: block;
+        margin: 20%;
+        color: #808080;
+    }
+    #Home{
+        display:grid ;
+        align-content:center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+    #Home img{
+        margin: 0px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+   .button{
+       margin-bottom: 10px;
+   }
+   .service{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+    .Services{
+        display: grid;
+        grid-template-columns: 1fr;
+   }
+   .About-content{
+       grid-template-columns: 1fr;
+   }
+  
+   #About img{
+        display: grid;
+        width: 100%;
+        position: relative;
+        right: 22%;
+   }
+   .container-doctors{
+       display: grid;
+       align-content: center;
+       grid-template-columns: 1fr;
+   }
+   .doctors{
+       width: 100%;
+       display: grid;
+       align-content: center;
+       margin: 10px;
+   }
+   #container{
+       grid-template-columns: 1fr;
+       align-content: center;
+       justify-content: center;
+   }
+   #container-books{
+       display: grid;
+       align-content: center;
+       justify-items: center;
+       width: 100%;
+   }
+   #container a{
+       left: 0%;
+   }
+   #container form{
+       margin: 10px;
+       display: grid;
+       justify-items: center;
+       align-content:center ;
+   }
+   .container-reviews{
+       grid-template-columns: 1fr;
+       margin: 0px;
+       width: 100%;
+   }
+   .container-blogs{
+       grid-template-columns: 1fr;
+   }
+   .blogs{
+       margin: 10px 0px;
+   }
+   .container-footer{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   .btn:hover{
+       width:170px;
+   }
+}
+@media screen and (min-width:691px) and (max-width:970px) {
+    nav ul{
+        margin-right:20px ;
+    }
+    ul li{
+        margin: 5px;
+    }
+    #Home img{
+        margin: 0px;
+    }
+    .Services{
+        grid-template-columns: 1fr 1fr;
+    }
+    .services{
+        margin: 30px;
+    }
+    #About img{
+        margin: 0px;
+    }
+    .container-doctors{
+        grid-template-columns: 1fr 1fr;
+    }
+    #container-books{
+        width: 100%;
+        margin: 0px;
+    }
+    .container-reviews{
+        grid-template-columns: 1fr 1fr;
+        margin:0;
+    }
+    #third-review{
+    display: grid;
+    grid-column: 1/3;
+    }
+    .container-blogs{
+        grid-template-columns: 1fr 1fr;
+    }
+    #Third-blog{
+        grid-column: 1/3;
+        height: 900px;
+    }
+    .container-footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
