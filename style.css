@@ -89,6 +89,7 @@ nav h3{
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    margin: 0px 4%;
 }
 #Home img{            
     margin: 0 70px 0 100px;
@@ -626,6 +627,7 @@ footer p:hover{
    }
    .blogs{
        margin: 10px 0px;
+       height: 97%;
    }
    .container-footer{
        display: grid;
