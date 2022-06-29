@@ -351,7 +351,7 @@ color: white;
 }
 #container-books{
     border:2px solid var(--green) ;
-    width: 500px ;
+    width: 50px ;
     height: 400px;
     margin: 120px 50px;
 }
@@ -674,7 +674,7 @@ footer p:hover{
     }
     #Third-blog{
         grid-column: 1/3;
-        height: 900px;
+        height: 700px;
     }
     .container-footer{
         grid-template-columns: 1fr 1fr 1fr;
