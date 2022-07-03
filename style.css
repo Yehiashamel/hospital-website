@@ -348,7 +348,7 @@ color: white;
 }
 #container-books{
     border:2px solid var(--green) ;
-    width: 50px ;
+    width: 500px ;
     height: 400px;
     margin: 120px 50px;
 }
