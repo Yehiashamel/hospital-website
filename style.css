@@ -622,6 +622,12 @@ footer p:hover{
        margin: 0px;
        width: 100%;
    }
+    .information #p{
+        margin:0;
+    }
+    #p{
+        margin: 10px 10px 50px;
+    }
    .container-blogs{
        grid-template-columns: 1fr;
    }
