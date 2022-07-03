@@ -252,7 +252,7 @@ color: white;
     text-align: center;
 }
 #About h2{
-    margin: 20px 10px 10px auto;
+    margin:10px;
     font-size: 50px;
 }
 #About img{
@@ -263,8 +263,8 @@ color: white;
 }
 .About-content p{
     color:#808080;
-    margin: 0px 23px 10px 0px;
-    width: 100%;
+    margin: 0px 10px 10px 7px;
+    width: 90%;
     height: 100%;
 }
 
