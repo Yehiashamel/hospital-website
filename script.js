@@ -7,5 +7,6 @@ menuBtn.onclick = function(){
     icon.classList.toggle("fa-xmark");
 }
 document.body.onscroll = () =>{
-    nav.classList.remove("active")
+    nav.classList.remove("active");
+    icon.classList.remove("fa-xmark");
 };
