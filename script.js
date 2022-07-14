@@ -1,4 +1,4 @@
-let menuBtn = document.querySelector('.nav-button');
+let menuBtn = document.querySelector('#nav-btn');
 let nav = document.querySelector('#ul');
 menuBtn.onclick = function(){
     nav.classList.toggle("active");
