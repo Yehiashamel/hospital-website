@@ -13,7 +13,10 @@
 }
 html{
     font-size: 18px;
-    scroll-padding-top: 7%;
+}
+body{
+     overflow: scroll;
+     overflow-x: hidden;
 }
 /*nav start here*/
 nav{
@@ -533,6 +536,7 @@ footer p:hover{
 @media screen and (max-width: 690px) {
     html{
         font-size: 16px;
+        overflow-x: hidden;
     }
     ul{
         display: none;
