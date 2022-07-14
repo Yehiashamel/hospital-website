@@ -49,6 +49,9 @@ nav h3{
 .nav-button{
     color: rgba(0, 0, 0, 0.78);
 }
+.fa-xmark{
+    color: red;
+}
 ul{
     margin-right: 50px;
     margin-top: 10px;
